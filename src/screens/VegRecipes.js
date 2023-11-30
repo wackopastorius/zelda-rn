@@ -4,7 +4,7 @@ import cookbook from "../api/cookbook";
 import useResults from "../hooks/useResults";
 
 const VegRecipes = () => {
-    const [results, errorMessage] = useResults();
+    const [results, errorMessage] = useResults('vegrecipes');
 
     
     return (
