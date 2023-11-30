@@ -4,9 +4,8 @@ import cookbook from "../api/cookbook";
 import useResults from "../hooks/useResults";
 
 const SeafoodRecipes = () => {
-    const [results, errorMessage] = useResults();
+    const [results, errorMessage] = useResults('seafoodrecipes');
 
-    
     return (
         <View>
             <Text>Seafood Recipes</Text>
